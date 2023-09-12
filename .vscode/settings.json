@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "*.jpynb": "python",
+        "iostream": "cpp"
+    }
+}

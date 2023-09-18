@@ -1,0 +1,26 @@
+.clock {
+    /* make the div in the middle of the page */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);    
+    width: 400px;
+    /* make background can change color in rainbow */
+    background: linear-gradient(to right, #00d2ff, #3a7bd5);
+    border-radius: 10px;
+    padding: 30px;
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+  }
+   
+  .clock .time {
+    font-size: 64px;
+    margin: 0 auto;
+  }
+   
+  .clock .date {
+    font-size: 24px;
+    margin: 0 auto;
+  }
